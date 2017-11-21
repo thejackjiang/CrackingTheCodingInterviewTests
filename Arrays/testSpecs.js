@@ -26,4 +26,8 @@ describe('the function `isPermutation`', () => {
   it('checks if two strings are permutations of each other, accounting for caps, should be false', function() {
     expect(isPermutation('AbCd', 'aBcD')).toEqual(false);
   });
+  it('checks if two strings are permutations of each other, accounting for caps, should be false', function() {
+    expect(isPermutation('AbCd', 'aBcD')).toEqual(false);
+  });
+
 });

@@ -20,6 +20,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "eslint-config-fullstack": "^3.0.0",
+    "eslint-plugin-react": "^7.5.1",
     "testem": "^1.6.0"
   },
   "devDependencies": {
