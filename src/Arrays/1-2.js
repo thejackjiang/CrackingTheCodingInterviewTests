@@ -25,7 +25,7 @@ const isPermutation = (s, t) => {
     if (!letterOccurance[t.charCodeAt(i)]) return false
     if (letterOccurance[t.charCodeAt(i)]) letterOccurance[t.charCodeAt(i)]--
   }
-  return !(Object.values(letterOccurance).some(el => {
-    return el !== 0
+  return (Object.values(letterOccurance).some(el => {
+    return el === 0
   }))
 }
