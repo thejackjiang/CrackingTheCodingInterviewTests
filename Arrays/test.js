@@ -51,3 +51,30 @@ const isPermutation = (s, t) => {
   }))
 }
 
+const spaces = (str, length) => {
+  let res = ''
+  for (let i = 0; i < str.length; i++){
+    if (str[i] === ' ' && res.length < length && res.length < length - 1 ){
+      res += '%20'
+    }
+    else if (str[i] !== ' '){
+      res += str[i]
+    }
+  }
+  return res
+}
+
+const permPal = (str) => {
+  let occurence = {}
+  let singleCount = 0
+  for (let i = 0; i < str.length; i++){
+    if (occurence[str[i]]) occurence[str[i]]++
+    else occurence[str[i]] = 1
+  }
+  const values = Object.values(occurence)
+  for (let i = 0; i < values.length; i++){
+    if (values[i] % 2 === 1) singleCount++
+    if (singleCount > 1) return false
+  }
+  return true
+}
