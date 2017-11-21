@@ -11,8 +11,8 @@
 const isUnique = (str) => {
 	const letterOccurance = {}
 	for (let i = 0; i < str.length; i++){
-		if (letterOccurance[str.charCodeAt(i)]) letterOccurance[str.charCodeAt(i)] = false
-		else letterOccurance[str.charCodeAt(i)] = true
+		if (letterOccurance[str.charCodeAt(i)]) return false
+		letterOccurance[str.charCodeAt(i)] = true
 	}
 	return !(Object.values(letterOccurance).some(el => {
 		return el === false
