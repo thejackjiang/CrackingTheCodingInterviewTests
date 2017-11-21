@@ -10,24 +10,35 @@ Given two strings, write a method to decide if one is a permutation of the other
 1.3
 <hr>
 Write a method to replace all the spaces in a string with '%20'. You may assume that the string has sufficient space at the end to  hold the additional characters, and that you are given the 'true' length of the string.
+<hr>
 Ex:
+<hr>
 Input 'Mr John Smith    ', 13
+<hr>
 Output: 'Mr%20John%20Smith
 <hr>
 1.4
 <hr>
 Given a string, write a function to check if it is a permutation of a palindrome. A palindrome is a word or phrase that is the same forwards and backwards. A permutation is a rearrangement of letters. A palindrome does not need to be limited to just dictionary words
+<hr>
 Ex:
+<hr>
 Input: Tact Coa
+<hr>
 Output: True (permutations : 'taco cat', 'ataco cta', ... etc)
 <hr>
 1.5
 <hr>
 There are three types of edits that can be performed on strings: insert a character, remove a chararacter, or replace a character. Given two strings, write a function to check if they are one edit(or zero edits) away.
+<hr>
 Ex:
+<hr>
 pale, ple -> true
+<hr>
 pales, pale -> true
+<hr>
 pale, bale -> true
+<hr>
 pale, bake -> false
 <hr>
 1.6
