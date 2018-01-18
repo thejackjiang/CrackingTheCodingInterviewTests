@@ -19,10 +19,10 @@ const removeDupe = (head) => {
       node = prev.next
     }
     else {
-      results[node.value] = null
+      results[node.value] = true
       prev = node
       node = node.next
     }
   }
-  return results
+  return head
 }
