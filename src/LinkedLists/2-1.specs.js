@@ -18,7 +18,7 @@ describe('function removeDupes and traverse', () => {
      expect(traverse(a)).toEqual(['a', 'b', 'b', 'c', 'd'])
    })
    it('removes duplicates in a linkedlist and returns object of unique values from linkedlist', () => {
-     expect(removeDupe(a)).toEqual(['a', 'b', 'c', 'd'])
+     expect(traverse(removeDupe(a))).toEqual(['a', 'b', 'c', 'd'])
    })
 })
 
