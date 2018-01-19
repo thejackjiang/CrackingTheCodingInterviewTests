@@ -10,8 +10,8 @@ const traverse = (head) => {
 
 const removeDupe = (head) => {
   const results = {}
-  node = head
-  prev = null
+  let node = head
+  let prev = null
   while (node){
     if (results[node.value]){
       prev.next = node.next
