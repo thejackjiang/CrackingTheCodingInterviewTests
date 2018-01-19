@@ -5,9 +5,9 @@ describe('function removeDupes and traverse', () => {
    }
    const a = new LinkedList('a')
    const b = new LinkedList('b')
+   const b2 = new LinkedList('b')
    const c = new LinkedList('c')
    const d = new LinkedList('d')
-   const b2 = new LinkedList('b')
 
    a.next = b
    b.next = b2
