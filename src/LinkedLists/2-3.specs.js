@@ -27,7 +27,7 @@ describe('function deleteMiddle, deletes a node in the middle of a singely linke
     deleteMiddle(c)
     expect(traverse(a)).toEqual(['a', 'b', 'd'])
   })
-  it('removes the b node', () => {
+  it('removes the b node, after removing c node in previous spec', () => {
     deleteMiddle(b)
     expect(traverse(a)).toEqual(['a', 'd'])
   })
