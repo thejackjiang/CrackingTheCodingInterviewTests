@@ -1,4 +1,4 @@
-describe('function sumForwardOrBack, sums up the digits', () => {
+describe('function sumForwardOrBack, sums up the digits of 2 linked lists forward or backwards ie: 3->2->1-> and 7->8->9 = 321+789 = 1110', () => {
 
   const LinkedList = function(data){
     this.value = data
