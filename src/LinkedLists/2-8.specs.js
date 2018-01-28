@@ -1,4 +1,4 @@
-describe('function loop, check if a circular linkedlist', () => {
+describe('function loop, finds where the loop in the linked list is', () => {
 
   const LinkedList = function(data){
     this.value = data
@@ -17,15 +17,11 @@ describe('function loop, check if a circular linkedlist', () => {
   e.next = b
 
 
-  it('checks if a and e intersect, they intersect at c', () => {
-    expect(intersection(a, e)).toEqual(c)
+  it('finds where the loop starts there is a loop in a linked list', () => {
+    expect(loop(a)).toEqual(b)
   })
-  it('checks if a and e intersect, they intersect at c', () => {
-    a.value = 'c'
-    b.value = 'a'
-    c.value = 't'
-    d.value = 'a'
-    e.value = 'b'
-    expect(intersection(a, e)).toEqual(c)
+  it('finds where loop starts in fully cyclic linked list', () => {
+    e.next = a
+    expect(loop(a)).toEqual(a)
   })
 })
