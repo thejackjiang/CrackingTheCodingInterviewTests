@@ -7,7 +7,6 @@ const threeInOne = function(){
   this.secondMin = Infinity
   this.lastMin = Infinity
 }
-// [|1,2,3,|    |4,5,6,|    |7,8,9|]
 threeInOne.prototype.push1 = function(value){
   this.array.splice(this.first, 0, value)
   this.first++
