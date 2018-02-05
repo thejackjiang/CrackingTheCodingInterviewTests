@@ -1,6 +1,6 @@
 describe('stack has a limit, once stack has reached the limit, will form new stack ', () => {
 
-  const mystack = new stack(5)
+  const mystack = new stack()
   mystack.push(0)
   mystack.push(1)
   mystack.push(2)
