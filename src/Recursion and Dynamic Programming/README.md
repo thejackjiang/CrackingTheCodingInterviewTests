@@ -6,17 +6,17 @@ A child is running up a staircase with n steps and can hop either 1, 2 or 3 step
 Imagine a robot sitting on the upper left corner of a grid with r rows and columns. The robot can only move right or down, but certain cells are off limits such that the robot cannot step on them. Design an algorithm to find a path for the robot from the top left to the bottom right
 <hr>
 8.3
-A magic index in an arrayA[0...n-1] is defined to be an index such that A[i] = i. Given a sorted array of distinct integers, wriete a method to find a magic index, if one exists, in Array A.
+A magic index in an arrayA[0...n-1] is defined to be an index such that A[i] = i. Given a sorted array of distinct integers, write a method to find a magic index, if one exists, in Array A.
 What if the values are not distinct?
 <hr>
 8.4
-WRite a method to return all subsets of a set.
+Write a method to return all subsets of a set.
 <hr>
 8.5
-Write a recursive function to multiply two positive integers without using the operator. You can use addition, subtraction and bit shifting but you hsould minimize the number of these operations.
+Write a recursive function to multiply two positive integers without using the + operator. You can use addition, subtraction and bit shifting but you should minimize the number of these operations.
 <hr>
 8.6
-Towers of Hanoi: In the classic problem of the Towers of Hanoi, you have 3 towers and N disks of different sizes which can slide onto any tower. The puzzle starts with disks sorted in ascending order of size from top to bottom(i.e. each disk sits on top of even larger one). You can hvave the following constraints:
+Towers of Hanoi: In the classic problem of the Towers of Hanoi, you have 3 towers and N disks of different sizes which can slide onto any tower. The puzzle starts with disks sorted in ascending order of size from top to bottom(i.e. each disk sits on top of even larger one). You can have the following constraints:
 1. only one disk can be moved at a time.
 2. a disk is slid off the top of a one tower onto another tower
 3. a disk cannot be placed on top of a smaller disk
@@ -26,7 +26,7 @@ Write a problem to move the disks from the first tower to the last using stacks
 Write a method to compute all permutations of a string of unique characters
 <hr>
 8.8
-WRite a method to compute all permutations of a string whose characters are not necessarily unique. The list of permutations should not be duplictes.
+Write a method to compute all permutations of a string whose characters are not necessarily unique. The list of permutations should not be duplictes.
 <hr>
 8.9
 Parens: Implement an algorithm to print all the valid combinations of n pairs of parentheses.
