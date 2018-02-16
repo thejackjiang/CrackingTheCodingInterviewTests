@@ -1,13 +1,7 @@
-// const isUnique = (str) => {
-// 	const letterOccurance = new Array(128)
-// 	letterOccurance.fill(0)
-// 	for(let i = 0; i < str.length; i ++){
-// 		letterOccurance[str.charCodeAt(i)]++
-// 		if(letterOccurance[str.charCodeAt(i)] > 1) return false
-// 	}
-// 	return true
-// }
-
+/*
+loop through string and cache letters in an object
+if it exist in the object, return false
+ */
 const isUnique = (str) => {
 	const letterOccurance = {}
 	for (let i = 0; i < str.length; i++){
