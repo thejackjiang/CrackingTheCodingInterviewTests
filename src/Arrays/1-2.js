@@ -1,19 +1,3 @@
-// const isPermutation = (s, t) => {
-// 	if(s.length !== t.length) return false
-// 	const letterOccurance = new Array(128)
-// 	letterOccurance.fill(0)
-// 	for(let i = 0; i < s.length; i ++){
-//     letterOccurance[s.charCodeAt(i)] ++
-//   }
-// 	for(let i = 0; i< t.length; i ++){
-//     	letterOccurance[t.charCodeAt(i)]--
-//     	if(letterOccurance[t.charCodeAt(i)] !== 0){
-//     		return false
-//     }
-//   }
-//   return true
-// }
-
 const isPermutation = (s, t) => {
   if (s.length !== t.length) return false
   const letterOccurance = {}
@@ -29,3 +13,9 @@ const isPermutation = (s, t) => {
     return el === 0
   }))
 }
+
+/*
+if the lengths aren't the same, return false
+cache each letter into an object for each string, one string will increment the counter for each letter while the other decrements
+if there are any non 0's in the object at the end, it is not a permutation
+*/
