@@ -7,7 +7,10 @@ const traverse = (head) => {
  }
  return results
 }
-
+/*
+traverse takes in a node and traverses from there till the end
+used for testing
+*/
 const removeDupe = (head) => {
   const results = {}
   let node = head
@@ -26,3 +29,8 @@ const removeDupe = (head) => {
   }
   return head
 }
+
+/*
+cache nodes found before
+if in cache, reassign pointers to remove node
+*/

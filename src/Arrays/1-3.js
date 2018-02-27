@@ -10,3 +10,6 @@ const spaces = (str, length) => {
   }
   return res
 }
+/*
+loop through the str and add anything that's not a space to the res string, if it is a space, then replace with %20
+*/

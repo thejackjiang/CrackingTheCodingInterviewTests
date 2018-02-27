@@ -20,3 +20,8 @@ function tMatrix(arr){
 
   return arr
 }
+/*
+any 0s in the matrix turns that row and column into 0's
+loop through 2d array and push in any i's and j's into their respective arrays
+then loop through and fill int he 0's
+*/

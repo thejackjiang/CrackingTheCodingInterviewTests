@@ -12,3 +12,10 @@ const permPal = (str) => {
   }
   return true
 }
+
+/*
+checks if string is a permutation of a palindrome
+loop through string and creates a hash - occurence
+if that letter exist, increment, otherwise 1
+check if there is more than 1 letter with odd occurence, then not permutation of palindrome
+*/

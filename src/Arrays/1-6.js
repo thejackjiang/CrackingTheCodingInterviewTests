@@ -10,3 +10,8 @@ function compress(str){
   }
   return res + count
 }
+/*
+compresses consecutive same letters into 1 and adding the number of that letter after
+loop through string and compare if same as previous letter
+increment counter if same, otherwise add the letter and number of occurence
+*/
