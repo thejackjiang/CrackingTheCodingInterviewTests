@@ -26,3 +26,9 @@ const partition = (head, num) => {
   rightCurr.next = null
   return leftHead
 }
+/*
+creates 2 linked list based on a partition number
+traverse through a linked list and compare the value to the partition number
+sort the linked list into 2 linked list based on partition number
+then join the two linked list at the end
+*/
