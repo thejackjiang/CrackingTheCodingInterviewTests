@@ -16,3 +16,8 @@ const sumForwardOrBackward = function(node1, node2, orientation){
   }
   return +num1 + +num2
 }
+/*
+sums up the digits of 2 linked lists based on orientation
+use 2 loops to create the number from the values of the 2 linked list
+convert to numbers and add together
+*/
