@@ -12,3 +12,9 @@ const loop = (node) => {
     check = true
   }
 }
+
+/*
+finds loop in ll
+a runner node runs two nodes at a time while the head runs one node at a time
+if the runner node meets the head node then there is a loop
+*/
