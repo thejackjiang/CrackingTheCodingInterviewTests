@@ -11,3 +11,9 @@ const palindrome = node => {
   }
   return true
 }
+/*
+checks if linked list is palindrome
+goes through ll and stores in array
+loop through array to check for palindrome
+checks the ith element from each end of array
+*/

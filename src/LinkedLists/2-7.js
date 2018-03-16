@@ -12,3 +12,9 @@ const intersection = (node1, node2) => {
   }
   return false
 }
+
+/*
+checks if 2 ll intersect
+store ll 1 in an array
+then loop through ll 2 and check if exist in array
+*/
